@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 211 69% 97%;
+    --foreground: 215 28% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 28% 17%;
+
+    --primary: 213 70% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 269 93% 75%;
+    --secondary-foreground: 215 28% 17%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 18% 38%;
+
+    --accent: 213 70% 39%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 88%;
+    --input: 0 0% 100%;
+    --ring: 213 70% 39%;
+
+    --radius: 24px;
+
+    --tertiary: 45 96% 56%;
+    --tertiary-foreground: 215 28% 17%;
+    --quaternary: 160 64% 52%;
+    --quaternary-foreground: 215 28% 17%;
+
+    --shadow-color: 213 70% 39%;
+    --shadow-pop: 0 10px 24px -16px hsl(213 70% 39% / 0.48), 0 2px 0px 0px hsl(213 70% 39% / 0.18);
+    --shadow-pop-hover: 0 18px 36px -20px hsl(213 70% 39% / 0.52), 0 3px 0px 0px hsl(213 70% 39% / 0.22);
+    --shadow-pop-active: 0 8px 18px -16px hsl(213 70% 39% / 0.44), 0 1px 0px 0px hsl(213 70% 39% / 0.18);
+    --shadow-soft: 0 14px 36px -24px hsl(213 70% 39% / 0.35), 0 1px 0px 0px hsl(214 32% 88%);
+    --shadow-pink: 0 14px 34px -22px hsl(269 93% 75% / 0.45), 0 2px 0px 0px hsl(269 93% 75% / 0.22);
+    --shadow-sticker-elevated: 0 22px 48px -28px hsl(213 70% 39% / 0.48), 0 2px 0px 0px hsl(213 70% 39% / 0.18);
+
+    --font-heading: 'Outfit', system-ui, sans-serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
+    --card: 222 84% 5%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 84% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 263 90% 66%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 330 86% 71%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 263 90% 66%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 263 90% 66%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    overflow-wrap: break-word;
+  }
+
+  /* Smooth scrolling everywhere */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Better touch tap targets */
+  button, a {
+    min-height: 36px;
+  }
+}
+
+@layer utilities {
+  .shadow-pop {
+    box-shadow: var(--shadow-pop);
+  }
+  .shadow-pop-hover {
+    box-shadow: var(--shadow-pop-hover);
+  }
+  .shadow-pop-active {
+    box-shadow: var(--shadow-pop-active);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  .shadow-pop-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  .shadow-pink {
+    box-shadow: var(--shadow-pink);
+  }
+  .shadow-sticker-elevated {
+    box-shadow: var(--shadow-sticker-elevated);
+  }
+  .blob-radius {
+    border-radius: 1rem 1rem 1rem 0;
+  }
+  .arch-radius {
+    border-radius: 9999px 9999px 0 0;
+  }
+  /* Thin custom scrollbar for transcript panels */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    border-radius: 9999px;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+}
+
+@keyframes pop-in {
+  0% { transform: scale(0); opacity: 0; }
+  80% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
