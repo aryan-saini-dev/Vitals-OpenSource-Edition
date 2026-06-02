@@ -27,7 +27,7 @@
 This video is a showcase of our n8n + VITALS integration, demonstrating improved fetching of patient details and automated appointment scheduling:
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/aryan-saini-dev/Vitals-OpenSource-Edition/main/Assets/vitals%20improved%202.mp4" width="800" controls></video>
+  <video src="./Assets/Vitals-n8n.mp4" width="800" controls></video>
 </p>
 
 ---
