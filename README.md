@@ -145,7 +145,7 @@ vitals-heatlhcare/
 ### n8n + VITALS Showcase
 This video is a showcase of our n8n + VITALS integration, demonstrating improved fetching of patient details and automated appointment scheduling:
 
-https://github.com/aryan-saini-dev/Vitals-OpenSource-Edition/raw/main/Assets/Vitals-n8n.mp4
+https://github.com/aryan-saini-dev/Vitals-OpenSource-Edition/blob/main/Assets/Vitals-n8n.mp4
 
 ### n8n Autonomous Automation
 <p align="center">
