@@ -12,8 +12,8 @@
   <strong>🏆 Hacknovate 7.0 Winning Project 🏆</strong>
 </p>
 
-> # [!IMPORTANT]
-> ## Production infrastructure is intentionally withheld for security, privacy, and healthcare compliance requirements.
+> [!IMPORTANT]
+> ### Production infrastructure is intentionally withheld for security, privacy, and healthcare compliance requirements.
 > **Safety Measure Notice:** As a safety measure before the official release, all backend source code, testing scripts, and other proprietary components have been removed from this repository. This repository is intended strictly to showcase our project architecture, the frontend interface, and our n8n automation / RAG integration, rather than being a fully open-source implementation.
 
 ---
