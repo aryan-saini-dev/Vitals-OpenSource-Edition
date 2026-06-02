@@ -1,5 +1,6 @@
-# VITALS: AI-powered Autonomous Voice-calling system for proactive patient monitoring and automated clinical documentation
-
+# VITALS: AI-powered Autonomous Voice-calling system for proactive patient monitoring and automated clinical documentation (Open-source developer edition)
+## Open-source developer edition featuring the Frontend, RAG Pipeline, and n8n Automation Workflows.
+## Production infrastructure is intentionally withheld for security, privacy, and healthcare compliance requirements.
 <p align="center">
   <img src="Assets/Vitals%20Logo.png" alt="VITALS Logo" width="300"/>
 </p>
