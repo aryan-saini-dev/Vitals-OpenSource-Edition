@@ -1,6 +1,5 @@
 # VITALS: AI-powered Autonomous Voice-calling system for proactive patient monitoring and automated clinical documentation (Open-source developer edition)
-## Open-source developer edition featuring the Frontend, RAG Pipeline, and n8n Automation Workflows.
-## Production infrastructure is intentionally withheld for security, privacy, and healthcare compliance requirements.
+## Featuring the Frontend, RAG Pipeline, and n8n Automation Workflows.
 <p align="center">
   <img src="Assets/Vitals%20Logo.png" alt="VITALS Logo" width="300"/>
 </p>
@@ -15,6 +14,7 @@
 
 > [!IMPORTANT]
 > **Safety Measure Notice:** As a safety measure before the official release, all backend source code, testing scripts, and other proprietary components have been removed from this repository. This repository is intended strictly to showcase our project architecture, the frontend interface, and our n8n automation / RAG integration, rather than being a fully open-source implementation.
+> ## Production infrastructure is intentionally withheld for security, privacy, and healthcare compliance requirements.
 
 ---
 
