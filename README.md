@@ -18,9 +18,17 @@
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Demo Videos
 
+### Project Overview
 [![VITALS Demo Video](https://img.youtube.com/vi/NzspuiscC0k/0.jpg)](https://youtu.be/NzspuiscC0k?si=1qYNsL4viLquzjCD)
+
+### n8n + VITALS Showcase
+This video is a showcase of our n8n + VITALS integration, demonstrating improved fetching of patient details and automated appointment scheduling:
+
+<p align="center">
+  <video src="Assets/vitals%20improved%202.mp4" width="800" controls></video>
+</p>
 
 ---
 
@@ -140,13 +148,6 @@ vitals-heatlhcare/
 ---
 
 ## ⚙️ Workflow Diagram
-
-### Improved System Workflow
-The following video demonstrates our updated and improved workflow, showing exactly how our system handles a user request efficiently (transcription spelling errors are handled and corrected in the backend):
-
-<p align="center">
-  <video src="Assets/vitals%20improved%202.mp4" width="800" controls></video>
-</p>
 
 ### n8n Autonomous Automation
 <p align="center">
